@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AWSSDKSwiftCore",
+        "repositoryURL": "https://github.com/noppoMan/aws-sdk-swift-core.git",
+        "state": {
+          "branch": null,
+          "revision": "d5182811d91b0870cd4352b0bcf2560bdc509838",
+          "version": "1.0.6"
+        }
+      },
+      {
+        "package": "CHTTPParser",
+        "repositoryURL": "https://github.com/Zewo/CHTTPParser.git",
+        "state": {
+          "branch": null,
+          "revision": "88306ab33bb316b2eedd39c90f4be8f4ebf65a11",
+          "version": "0.14.0"
+        }
+      },
+      {
+        "package": "CLibreSSL",
+        "repositoryURL": "https://github.com/vapor/clibressl.git",
+        "state": {
+          "branch": null,
+          "revision": "23ddb296981d17a8ee6c7418742a40cad5d2f9d0",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "HypertextApplicationLanguage",
+        "repositoryURL": "https://github.com/noppoMan/HypertextApplicationLanguage.git",
+        "state": {
+          "branch": null,
+          "revision": "e6216c13fd510e31e70e6f409936f1a656db1f33",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "Prorsum",
+        "repositoryURL": "https://github.com/noppoMan/Prorsum.git",
+        "state": {
+          "branch": null,
+          "revision": "4e5af67f5eb24ef050b38913ce5804071adfdf47",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "ProrsumNet",
+        "repositoryURL": "https://github.com/noppoman/ProrsumNet.git",
+        "state": {
+          "branch": null,
+          "revision": "627eb273db4c37791aacd78ae8aef4da30f95bcb",
+          "version": "0.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
