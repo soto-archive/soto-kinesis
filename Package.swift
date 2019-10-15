@@ -1,16 +1,16 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.2
 
 import PackageDescription
 
 let package = Package(
-  name: "SwiftAWSKinesis",
+  name: "Kinesis",
   products: [
-      .library(name: "SwiftAWSKinesis", targets: ["SwiftAWSKinesis"]),
+      .library(name: "Kinesis", targets: ["Kinesis"]),
   ],
   dependencies: [
-      .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .upToNextMajor(from: "2.0.0-rc.1"))
+      .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .upToNextMinor(from: "3.4.0"))
   ],
   targets: [
-      .target(name: "SwiftAWSKinesis", dependencies: ["AWSSDKSwiftCore"]),
+      .target(name: "Kinesis", dependencies: ["AWSSDKSwiftCore"]),
   ]
 )
