@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "Kinesis", targets: ["Kinesis"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .upToNextMinor(from: "4.6.0"))
+        .package(url: "https://github.com/soto-project/soto-core.git", .upToNextMinor(from: "4.7.0"))
     ],
     targets: [
         .target(name: "Kinesis", dependencies: ["AWSSDKSwiftCore"], path: "./Sources/Kinesis"),
